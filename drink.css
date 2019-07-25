@@ -1,0 +1,37 @@
+body{ 
+    background-color: black;
+}
+#world{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 0;
+}
+#world >div{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+   
+}
+.wall{
+    background-image: url("./images/wall.png");
+}
+.coin{
+    background-image: url("./images/coin.png");
+}
+.pacman{
+    background-image:url("./images/pacman.png");
+}
+.ground{
+    background-image:url("./images/bg.png");
+}
+.pacman.left{	
+    background-image:url("./images/pacman-left.png");
+}
+.pacman.up{	
+    background-image:url("./images/pacman-up.png");
+}
+.pacman.down{	
+    background-image:url("./images/pacman-down.png");
+}
